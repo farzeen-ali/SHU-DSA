@@ -253,6 +253,108 @@ import * as readlineSync from "readline-sync"
 
 // Arrays
 
+// let marks: number[]; // declaration
+// marks = [12,34,5,7,8] // initialization
+
+// let marks: number[] = [80, 90, 93, 92];
+// console.log(marks[1])
+
+// for(let i = 0; i < marks.length; i++){
+//     console.log(marks[i])
+// }
+
+// let names: string[] = ["Farzeen", "Ali", "Huzaifa"]
+
+// for(let i = 0; i < names.length; i++){
+//     console.log("Name " + (i + 1) + " " + names[i])
+// }
+
+// let marks: number[] = [];
+// let size: number = parseInt(readlineSync.question("Array Size: "))
+
+// for(let i = 0; i < size; i++){
+//     let value = parseInt(readlineSync.question("Enter a number: "))
+//     marks.push(value)
+// }
+// console.log("Your Result is: ")
+// for(let i = 0; i < size; i++){
+//     console.log(marks[i])
+// }
+
+// Task
+
+// let numbers: number[] = [10,30,50,22, 40,70];
+// let max = numbers[0];
+
+// for(let i = 1; i < numbers.length; i++){
+//     if(numbers[i] > max){
+//         max = numbers[i];
+//     }
+// }
+
+// console.log("Maximum Value is: ", max);
+
+// let nums: number[] = [10,23,40,31,46,79];
+// let evenCount = 0, oddCount = 0;
+// for(let i = 0; i < nums.length; i++){
+//     if(nums[i] % 2 === 0){
+//         evenCount++;
+//     }
+//     else{
+//         oddCount++;
+//     }
+// }
+// console.log("Even Numbers: " + evenCount)
+// console.log("Odd Numbers: " + oddCount)
+
+
+// let num: number = parseInt(readlineSync.question("Enter a number: "))
+
+// let nums: number[] = [];
+// let sum = 0;
+
+// for(let i = 0; i < num; i++){
+//     let val = parseInt(readlineSync.question("Enter a Value: "))
+//     nums.push(val)
+//     sum += val;
+// }
+
+// console.log("Numbers: ", nums);
+// console.log("Sum is: ", sum)
+
+
+let arr: number[] = [12,23,45,67,87,89];
+
+let num: number = parseInt(readlineSync.question("Enter a number: "))
+
+let found = false;
+
+for(let n of arr){
+    if(n === num){
+        found = true;
+        break;
+    }
+}
+if(found){
+    console.log(num, " is present in array")
+}
+else{
+    console.log(num, " is not present in array")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
