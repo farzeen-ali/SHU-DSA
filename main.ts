@@ -28,7 +28,7 @@
 // console.log("Division: ", a/b)
 // console.log("Modulus: ", a%b)
 
-import * as readlineSync from "readline-sync"
+// import * as readlineSync from "readline-sync"
 
 // let firstName: string = readlineSync.question("Enter your name: ")
 
@@ -224,9 +224,9 @@ import * as readlineSync from "readline-sync"
 // 2) no parameter, with return
 
 // function getUsername(): string{
-//     let username = readlineSync.question("Enter your name: ");
+//     let username = "Farzeen";
 //     return username;
-//     // console.log("Hello") not executed
+//     console.log("Hello")
 // }
 
 // let result = getUsername();
@@ -323,40 +323,58 @@ import * as readlineSync from "readline-sync"
 // console.log("Sum is: ", sum)
 
 
-let arr: number[] = [12,23,45,67,87,89];
+// let arr: number[] = [12,23,45,67,87,89];
 
-let num: number = parseInt(readlineSync.question("Enter a number: "))
+// let num: number = parseInt(readlineSync.question("Enter a number: "))
 
-let found = false;
+// let found = false;
 
-for(let n of arr){
-    if(n === num){
-        found = true;
-        break;
-    }
-}
-if(found){
-    console.log(num, " is present in array")
-}
-else{
-    console.log(num, " is not present in array")
-}
+// for(let n of arr){
+//     if(n === num){
+//         found = true;
+//         break;
+//     }
+// }
+// if(found){
+//     console.log(num, " is present in array")
+// }
+// else{
+//     console.log(num, " is not present in array")
+// }
 
+// take a number from user and print its table
+// import * as readlineSync from "readline-sync"
 
+// let num: number = parseInt(readlineSync.question("Enter a number: "))
 
+// let limit: number = parseInt(readlineSync.question("Enter a limit: "))
 
+// console.log(`Table of ${num}`)
 
+// for(let i = 1; i <= limit; i++){
+//     // console.log(num + ' x ' + i + ' = ' + num*i)
+//     console.log(`${num} x ${i}  = ${num*i}`)
+// }
 
+// find max & min in array
 
+// import * as readlineSync from "readline-sync"
 
+// const n = parseInt(readlineSync.question("Enter size of array: "))
 
+// let arr: number[] = [];
 
+// for(let i = 0; i < n; i++){
+//     const val = parseInt(readlineSync.question("Enter value: "))
+//     arr.push(val)
+// }
+// // 10,20,30,40
+// let max = arr[0] // 10
+// let min = arr[0] // 10
 
-
-
-
-
-
-
-
-
+// for(let num of arr){
+//     if(num > max) max = num //40
+//     if(num < min) min = num //10
+// }
+// console.log("Max: ", max)
+// console.log("Min: ", min)
